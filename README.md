@@ -1,8 +1,7 @@
 # 營養指南美食搜尋
 
 一個優雅的營養資訊查詢應用，提供食物熱量和營養成分的即時搜尋功能。
-
-![應用預覽](https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80)
+![使用者介面](https://github.com/user-attachments/assets/5bac2194-2c72-4efa-8400-8912db29dc53)
 
 ## 功能特色
 
