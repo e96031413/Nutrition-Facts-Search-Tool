@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-pattern-1 {
+  background-color: #fff8f3;
+  background-image: 
+    radial-gradient(#f8d5a8 0.5px, transparent 0.5px),
+    radial-gradient(#f8d5a8 0.5px, #fff8f3 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  opacity: 0.8;
+}
+
+.bg-pattern-2 {
+  background: 
+    linear-gradient(135deg, #fff5ec 25%, transparent 25%) -10px 0,
+    linear-gradient(225deg, #fff5ec 25%, transparent 25%) -10px 0,
+    linear-gradient(315deg, #fff5ec 25%, transparent 25%),
+    linear-gradient(45deg, #fff5ec 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-color: #ffeedd;
+  opacity: 0.9;
+}
+
+.bg-pattern-3 {
+  background-color: #fffaf5;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0C13.4315 0 0 13.4315 0 30C0 46.5685 13.4315 60 30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0ZM30 48C20.0589 48 12 39.9411 12 30C12 20.0589 20.0589 12 30 12C39.9411 12 48 20.0589 48 30C48 39.9411 39.9411 48 30 48Z' fill='%23ffdab3' fill-opacity='0.2'/%3E%3C/svg%3E");
+  opacity: 0.95;
+}
